@@ -1,26 +1,22 @@
-# Zion Data Loss Guardian
+# 🔐 Zion Data Guardian
 
-DLP for AI — scans every prompt and every model response for PII, credentials, source code and confidential IP before data leaves your boundary.
+DLP for AI — scans prompts and responses for PII, secrets and IP leakage before data leaves your boundary. Part of the **Zion AI Security & Trust Suite (Batch 71)**.
 
-**Live app:** https://ziontechgroup.com/zion-data-guardian/
+## What it does
+- Detects PII (LGPD/GDPR/CCPA classes), credentials, API keys and source-code secrets in LLM traffic
+- Redacts, tokenizes or blocks sensitive content in-line
+- Maps data flows for audit evidence and DPIA support
 
-## Features
-- 200+ detectors: PII, PHI, PCI, API keys, secrets, source code fingerprints
-- Real-time redaction, blocking or approval workflows per policy
-- Evidence feed to [Zion AI Compliance Copilot](https://ziontechgroup.com/zion-ai-compliance-copilot/) — auditors see enforcement, not promises
-- Shadow AI coverage: browser extension and gateway modes
+## Key features
+- 150+ built-in detectors + custom regex/ML classifiers
+- Shadow-AI discovery across browsers, SaaS and APIs
+- Policy-as-code with versioned rulesets
+- Integrations: Slack/Teams alerts, Splunk, Sentinel, DLP proxies
 
-## Part of the Zion AI Security & Trust Suite (Batch 71)
-- [Zion AI Red Team Studio](https://ziontechgroup.com/zion-ai-red-team/) · [repo](https://github.com/Zion-support/zion-ai-red-team)
-- [Zion Prompt Injection Shield](https://ziontechgroup.com/zion-prompt-shield/) · [repo](https://github.com/Zion-support/zion-prompt-shield)
-- [Zion Model Integrity Monitor](https://ziontechgroup.com/zion-model-integrity/) · [repo](https://github.com/Zion-support/zion-model-integrity)
-- [Zion AI Compliance Copilot](https://ziontechgroup.com/zion-ai-compliance-copilot/) · [repo](https://github.com/Zion-support/zion-ai-compliance-copilot)
-- [Zion Incident Triage AI](https://ziontechgroup.com/zion-incident-triage/) · [repo](https://github.com/Zion-support/zion-incident-triage)
+## 🔗 Zion App Network
+- Suite hub: [zion-network](https://github.com/Zion-support/zion-network) · [network.json](https://github.com/Zion-support/zion-network/blob/main/network.json)
+- Sister apps: [Zion Prompt Shield](https://github.com/Zion-support/zion-prompt-shield) · [Zion AI Red Team](https://github.com/Zion-support/zion-ai-red-team) · [Zion Model Integrity](https://github.com/Zion-support/zion-model-integrity) · [Zion AI Compliance Copilot](https://github.com/Zion-support/zion-ai-compliance-copilot) · [Zion Incident Triage](https://github.com/Zion-support/zion-incident-triage)
+- 🌐 [ziontechgroup.com](https://ziontechgroup.com) · [Plans](https://ziontechgroup.com/plans/) · [Discovery call ($99)](https://ziontechgroup.com/discovery/)
 
-## Network
-- Hub: https://ziontechgroup.com/zion-app-network/ · Apps: https://ziontechgroup.com/apps/
-- Showcase: https://ziontechgroup.com/zion-app-network/app-network-batch71-oct03.html
-- Blog: https://ziontechgroup.com/blog/ai-security-trust-suite/
-- Plans: https://ziontechgroup.com/en/plans/ (Discovery $99 · Consulting $499 · Starter $2,500 · Growth $8,000/mo)
-
-© 2026 Zion Tech Group — MIT License
+## License
+MIT — © Zion Tech Group
